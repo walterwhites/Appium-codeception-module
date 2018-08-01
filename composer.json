@@ -1,0 +1,17 @@
+{
+    "name": "walterwhites/appium-module",
+    "description": "Appium module for codeception",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "flo",
+            "email": "contact.magician@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Codeception\\Module\\": "src"
+        }
+    }
+}
