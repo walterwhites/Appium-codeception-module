@@ -2,6 +2,8 @@
     "name": "walterwhites/appium-module",
     "description": "Appium module for codeception",
     "version": "1.0.0",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "flo",
