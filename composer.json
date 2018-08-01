@@ -3,8 +3,6 @@
     "description": "Appium module for codeception",
     "license": "MIT",
     "type": "library",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "flo",
