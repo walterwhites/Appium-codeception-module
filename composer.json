@@ -11,7 +11,9 @@
             "email": "contact.magician@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "appium/php-client": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "Codeception\\Module\\": "src"
