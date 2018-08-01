@@ -1,7 +1,8 @@
 {
     "name": "walterwhites/appium-module",
     "description": "Appium module for codeception",
-    "version": "1.0.0",
+    "license": "MIT",
+    "type": "library",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "authors": [
