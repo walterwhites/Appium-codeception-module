@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "appium/php-client": "dev-master"
+        "appium/php-client": "master"
     },
     "autoload": {
         "psr-4": {
