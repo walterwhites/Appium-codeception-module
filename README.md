@@ -40,7 +40,7 @@ then run `composer install`
 class_name: IosTester
 modules:
   enabled:
-    # Enable appium driver
+    # Enable appium module
     -  \Appium\Appium:
     -  Asserts:
   config:
