@@ -1,7 +1,40 @@
 # Appium-codeception-module
 
+## config for iOS
+
+```yml
+class_name: IosTester
+modules:
+  enabled:
+    # Enable appium driver
+    -  \Appium\Appium:
+    -  Asserts:
+  config:
+    # Configuration for appium driver
+    \Appium\Appium:
+      host: 0.0.0.0
+      local: true
+      port: 4723
+      browserName: ''
+      desiredCapabilities:
+        platformName: iOS
+        platformVersion: '13.2'
+        deviceName: iPhone 11 Pro
+        xcodeOrgId: ''
+        xcodeSigningId: iPhone Developer
+        noReset: true
+        fullReset: false
+        clearSystemFiles: true
+        automationName: XCUITest
+        bundleId: %IOS_BUNDLE_ID%
+        #app: %IOS_APP_PATH%
+        #bundleId: bundleId-of-your-app
+        showIOSLog: false
+```
+
 ## usage
-Below an example of registerByEmail method in RegisterPage
+
+Below an example of a classic register method
 
 ```php
 /**
@@ -29,6 +62,7 @@ public function registerByEmail(User $params)
 - setText updates the text field with value 'First name' to $params->firstName
 - hideKeyboard closes the Keyboard (not working on all iOS devices)
 - touchPositionedButon taps on a button or checkbox according his position
+
 
 ## AppTestCase.php
 
