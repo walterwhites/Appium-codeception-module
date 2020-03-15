@@ -1,6 +1,40 @@
+<h1 align="center">
+  Appium module for Codeception 
+</h1>
+<p align="center" style="font-size: 1.2rem;"> Easy Appium integration, iOS and Android Automation.</p>
+
+<hr />
+
 # Appium-codeception-module
 
-## config for iOS
+## Table of Contents
+
+* [Install](#install)
+* [Tests](#tests)
+  * [config for iOS](#config-for-ios)
+  * [Generating tester classes](#generating-tester-classes)
+  * [Usage](#usage)
+  * [AppTestCase](#apptestcase)
+  * [ILocatorStrategy interface](#ilocatorstrategy-interface)
+  * [IClassChainSearch interface](#iclasschainsearch-interface)
+ 
+  
+## Install
+
+Just add `walterwhites/appium-module` to your project's composer.json file:
+
+```json
+{
+    "require": {
+       "walterwhites/appium-module": "dev-master"
+    }
+}
+```
+then run `composer install`
+
+## Tests
+
+### config for iOS
 
 ```yml
 class_name: IosTester
@@ -32,7 +66,16 @@ modules:
         showIOSLog: false
 ```
 
-## usage
+### Generating tester classes
+
+To generate actor class for the  `AndroidTester`/`IosTester` defined inside `android.suite.yml` and `ios.suite.yml`
+run the following command:
+
+```bash
+codecept build
+```
+
+### usage
 
 Below an example of a classic register method
 
@@ -64,7 +107,7 @@ public function registerByEmail(User $params)
 - touchPositionedButon taps on a button or checkbox according his position
 
 
-## AppTestCase.php
+### AppTestCase
 
 ```php
 protected $locatorStrategy = ILocatorStrategy::class_chain;
