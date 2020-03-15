@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34212949-d5b0-4c7e-b1fb-1cb08d2f6962" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppTestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces/IClassChainSearch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces/ILocatorStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/AppiumTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/traits/Button.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/traits/TextField.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Appium-module.iml" afterPath="$PROJECT_DIR$/.idea/Appium-module.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppTestCase.php" afterPath="$PROJECT_DIR$/src/AppTestCase.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Appium.php" afterPath="$PROJECT_DIR$/src/Appium.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application.php" afterPath="$PROJECT_DIR$/src/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Session.php" afterPath="$PROJECT_DIR$/src/Session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces/IClassChainSearch.php" afterPath="$PROJECT_DIR$/src/interfaces/IClassChainSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces/ILocatorStrategy.php" afterPath="$PROJECT_DIR$/src/interfaces/ILocatorStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/AppiumTest.php" afterPath="$PROJECT_DIR$/src/tests/AppiumTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/traits/Button.php" afterPath="$PROJECT_DIR$/src/traits/Button.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/traits/TextField.php" afterPath="$PROJECT_DIR$/src/traits/TextField.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +24,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Appium.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Appium.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Appium.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Application.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IClassChainSearch.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interfaces/IClassChainSearch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ILocatorStrategy.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interfaces/ILocatorStrategy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppiumTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/AppiumTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Button.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/traits/Button.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextField.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/traits/TextField.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -39,8 +107,18 @@
       <file leaf-file-name="AppTestCase.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppTestCase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Session.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Session.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,9 +138,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Remote/AppiumRemoteDriver.php" />
-        <option value="$PROJECT_DIR$/src/Appium.php" />
         <option value="$PROJECT_DIR$/src/Test.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/interfaces/IClassChainSearch.php" />
+        <option value="$PROJECT_DIR$/src/interfaces/ILocatorStrategy.php" />
+        <option value="$PROJECT_DIR$/src/traits/Button.php" />
+        <option value="$PROJECT_DIR$/src/traits/TextField.php" />
+        <option value="$PROJECT_DIR$/src/Application.php" />
+        <option value="$PROJECT_DIR$/src/Appium.php" />
+        <option value="$PROJECT_DIR$/src/tests/AppiumTest.php" />
+        <option value="$PROJECT_DIR$/src/AppTestCase.php" />
+        <option value="$PROJECT_DIR$/src/Session.php" />
       </list>
     </option>
   </component>
@@ -129,6 +215,24 @@
               <item name="Appium-codeception-module" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Appium-codeception-module" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Appium-codeception-module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="interfaces" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Appium-codeception-module" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Appium-codeception-module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Appium-codeception-module" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Appium-codeception-module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="traits" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -172,12 +276,12 @@
       <workItem from="1533154964157" duration="795000" />
       <workItem from="1537884526122" duration="3512000" />
       <workItem from="1538168128620" duration="2751000" />
-      <workItem from="1584296627023" duration="120000" />
+      <workItem from="1584296627023" duration="502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15462000" />
+    <option name="totallyTimeSpent" value="15844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -331,22 +435,6 @@
     <entry file="file://$PROJECT_DIR$/src/Remote/AppiumRemoteDriver.php" />
     <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit-selenium/Tests/Selenium2TestCaseTest.php" />
     <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit-selenium/PHPUnit/Extensions/Selenium2TestCase.php" />
-    <entry file="file://$PROJECT_DIR$/src/AppTestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -373,8 +461,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Appium.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/traits/TextField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/traits/Button.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/AppiumTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/ILocatorStrategy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/IClassChainSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppTestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -1,5 +1,6 @@
 <?php
-namespace Helper\Appium;
+
+namespace Appium;
 
 use \PHPUnit_Extensions_AppiumTestCase as TestCase;
 use Helper\Appium\interfaces\IClassChainSearch;

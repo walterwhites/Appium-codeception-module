@@ -1,6 +1,6 @@
 <?php
 
-namespace Helper\Appium;
+namespace Appium;
 
 use Helper\Appium\interfaces\IClassChainSearch;
 use Helper\Appium\interfaces\ILocatorStrategy;

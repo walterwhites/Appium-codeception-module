@@ -1,6 +1,6 @@
 <?php
 
-namespace Helper\Appium\interfaces;
+namespace Appium\interfaces;
 
 interface IClassChainSearch
 {

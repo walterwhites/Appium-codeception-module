@@ -1,5 +1,6 @@
 <?php
-namespace Helper\Appium;
+
+namespace Appium;
 
 use \PHPUnit\Framework\Exception;
 use Codeception\TestInterface;

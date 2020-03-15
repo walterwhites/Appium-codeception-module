@@ -1,5 +1,6 @@
 <?php
-namespace Helper\Appium\tests;
+
+namespace Appium\tests;
 
 use Codeception\Lib\Di;
 use Codeception\Lib\ModuleContainer;
