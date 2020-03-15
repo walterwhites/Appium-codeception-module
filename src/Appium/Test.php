@@ -1,5 +1,7 @@
 <?php
 
+namespace Codeception\Module\Appium;
+
 require_once('PHPUnit/Extensions/AppiumTestCase.php');
 require_once('PHPUnit/Extensions/AppiumTestCase/Element.php');
 

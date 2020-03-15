@@ -1,9 +1,9 @@
 <?php
 
-namespace Appium;
+namespace Codeception\Module\Appium;
 
-use Appium\interfaces\IClassChainSearch;
-use Appium\interfaces\ILocatorStrategy;
+use Codeception\Module\Appium\Interfaces\ILocatorStrategy;
+use Codeception\Module\Appium\Interfaces\IClassChainSearch;
 use IosTester;
 
 abstract class Application implements ILocatorStrategy, IClassChainSearch

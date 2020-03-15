@@ -1,6 +1,6 @@
 <?php
 
-namespace Appium\Traits;
+namespace Codeception\Module\Appium\Traits;
 
 use PHPUnit_Extensions_AppiumTestCase_Element;
 

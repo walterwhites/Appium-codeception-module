@@ -1,9 +1,9 @@
 <?php
 
-namespace Appium\tests;
+namespace Codeception\Module\Appium\Tests;
 
-use Appium\Appium;
-use Appium\AppTestCase;
+use Codeception\Module\Appium\Appium;
+use Codeception\Module\Appium\AppTestCase;
 use Codeception\Lib\Di;
 use Codeception\Lib\ModuleContainer;
 use Dotenv\Exception\InvalidFileException;

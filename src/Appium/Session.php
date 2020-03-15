@@ -1,6 +1,6 @@
 <?php
 
-namespace Appium;
+namespace Codeception\Module\Appium;
 
 class Session
 {

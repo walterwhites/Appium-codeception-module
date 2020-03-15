@@ -1,6 +1,6 @@
 <?php
 
-namespace Appium\interfaces;
+namespace Codeception\Module\Appium\Interfaces;
 
 interface IClassChainSearch
 {

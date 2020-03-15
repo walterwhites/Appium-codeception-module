@@ -1,12 +1,12 @@
 <?php
 
-namespace Appium;
+namespace Codeception\Module\Appium;
 
 use \PHPUnit_Extensions_AppiumTestCase as TestCase;
-use Appium\interfaces\IClassChainSearch;
-use Appium\interfaces\ILocatorStrategy;
-use Appium\Traits\Button;
-use Appium\Traits\TextField;
+use Codeception\Module\Appium\Interfaces\ILocatorStrategy;
+use Codeception\Module\Appium\Interfaces\IClassChainSearch;
+use Codeception\Module\Appium\Traits\Button;
+use Codeception\Module\Appium\Traits\TextField;
 use PHPUnit_Extensions_AppiumTestCase;
 
 class AppTestCase extends TestCase implements ILocatorStrategy, IClassChainSearch

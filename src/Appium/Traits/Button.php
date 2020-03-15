@@ -1,8 +1,8 @@
 <?php
 
-namespace Appium\Traits;
+namespace Codeception\Module\Appium\Traits;
 
-use Appium\interfaces\ILocatorStrategy;
+use Codeception\Module\Appium\Interfaces\ILocatorStrategy;
 use PHPUnit_Extensions_AppiumTestCase_TouchAction;
 
 trait Button
