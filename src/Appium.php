@@ -2,6 +2,7 @@
 
 namespace Codeception\Module;
 
+use Codeception\Module\Appium\Session;
 use \PHPUnit\Framework\Exception;
 use Codeception\TestInterface;
 use Dotenv\Exception\InvalidFileException;
