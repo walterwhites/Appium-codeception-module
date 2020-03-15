@@ -1,6 +1,6 @@
 <?php
 
-namespace Codeception\Module\Appium;
+namespace Codeception\Module;
 
 use \PHPUnit\Framework\Exception;
 use Codeception\TestInterface;

@@ -2,7 +2,7 @@
 
 namespace Codeception\Module\Appium\Tests;
 
-use Codeception\Module\Appium\Appium;
+use Codeception\Module\Appium;
 use Codeception\Module\Appium\AppTestCase;
 use Codeception\Lib\Di;
 use Codeception\Lib\ModuleContainer;
