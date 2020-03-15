@@ -2,11 +2,11 @@
 
 namespace Appium\tests;
 
+use Appium\Appium;
+use Appium\AppTestCase;
 use Codeception\Lib\Di;
 use Codeception\Lib\ModuleContainer;
 use Dotenv\Exception\InvalidFileException;
-use Helper\Appium\Appium;
-use Helper\Appium\AppTestCase;
 use PHPUnit\Exception;
 use PHPUnit\Framework\TestCase;
 

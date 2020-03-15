@@ -3,10 +3,10 @@
 namespace Appium;
 
 use \PHPUnit_Extensions_AppiumTestCase as TestCase;
-use Helper\Appium\interfaces\IClassChainSearch;
-use Helper\Appium\interfaces\ILocatorStrategy;
-use Helper\Appium\Traits\Button;
-use Helper\Appium\Traits\TextField;
+use Appium\interfaces\IClassChainSearch;
+use Appium\interfaces\ILocatorStrategy;
+use Appium\Traits\Button;
+use Appium\Traits\TextField;
 use PHPUnit_Extensions_AppiumTestCase;
 
 class AppTestCase extends TestCase implements ILocatorStrategy, IClassChainSearch

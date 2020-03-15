@@ -2,8 +2,8 @@
 
 namespace Appium;
 
-use Helper\Appium\interfaces\IClassChainSearch;
-use Helper\Appium\interfaces\ILocatorStrategy;
+use Appium\interfaces\IClassChainSearch;
+use Appium\interfaces\ILocatorStrategy;
 use IosTester;
 
 abstract class Application implements ILocatorStrategy, IClassChainSearch

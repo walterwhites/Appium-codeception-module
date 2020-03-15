@@ -2,7 +2,7 @@
 
 namespace Appium\Traits;
 
-use Helper\Appium\interfaces\ILocatorStrategy;
+use Appium\interfaces\ILocatorStrategy;
 use PHPUnit_Extensions_AppiumTestCase_TouchAction;
 
 trait Button

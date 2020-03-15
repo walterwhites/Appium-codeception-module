@@ -5,7 +5,6 @@ namespace Appium;
 use \PHPUnit\Framework\Exception;
 use Codeception\TestInterface;
 use Dotenv\Exception\InvalidFileException;
-use ios\pages\Page;
 
 class Appium extends \Codeception\Module
 {
@@ -80,10 +79,9 @@ class Appium extends \Codeception\Module
     }
 
     /**
-     * @param Page $page
      * @return null|Exception
      */
-    public function running(Page $page)
+    public function running($page)
     {
         try {
             if ($this->session == null) {
