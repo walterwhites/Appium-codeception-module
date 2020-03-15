@@ -44,7 +44,7 @@ modules:
     -  \Appium\Appium:
     -  Asserts:
   config:
-    # Configuration for appium driver
+    # Configuration for appium module
     \Appium\Appium:
       host: 0.0.0.0
       local: true
