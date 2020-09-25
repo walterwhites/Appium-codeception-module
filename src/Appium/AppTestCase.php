@@ -2,131 +2,35 @@
 
 namespace Codeception\Module\Appium;
 
-use \PHPUnit_Extensions_AppiumTestCase as TestCase;
-use Codeception\Module\Appium\Interfaces\ILocatorStrategy;
-use Codeception\Module\Appium\Interfaces\IClassChainSearch;
-use Codeception\Module\Appium\Traits\Button;
-use Codeception\Module\Appium\Traits\TextField;
-use PHPUnit_Extensions_AppiumTestCase;
+use Codeception\Module\Appium\Strategies\LocatorStrategy;
 
-class AppTestCase extends TestCase implements ILocatorStrategy, IClassChainSearch
+class AppTestCase
 {
-    public static $browsers;
-
-    /**
-     * @var PHPUnit_Extensions_AppiumTestCase $action
-     */
-    private $actions;
-
-    protected $locatorStrategy = ILocatorStrategy::class_chain;
-    protected $classChainSearch = IClassChainSearch::label;
-
-    use Button;
-    use TextField;
-
-    public function setLocatorStrategy($locatorStrategy)
-    {
-        switch ($locatorStrategy) {
-            case ILocatorStrategy::class_chain:
-                $this->locatorStrategy = ILocatorStrategy::class_chain;
-                break;
-            case ILocatorStrategy::predicate_string:
-                $this->locatorStrategy = ILocatorStrategy::predicate_string;
-                break;
-            case ILocatorStrategy::accessibility_id:
-                $this->locatorStrategy = ILocatorStrategy::accessibility_id;
-                break;
-        }
-    }
-
-    public function setClassChainSearch($classChainSearch)
-    {
-        switch ($classChainSearch) {
-            case IClassChainSearch::label:
-                $this->locatorStrategy = IClassChainSearch::label;
-                break;
-            case IClassChainSearch::name:
-                $this->locatorStrategy = IClassChainSearch::name;
-                break;
-            case IClassChainSearch::value:
-                $this->locatorStrategy = IClassChainSearch::value;
-                break;
-        }
-    }
-
-    /**
-     * @param $element
-     * @return PHPUnit_Extensions_AppiumTestCase $el
-     */
-    public function actionByLocatorStrategy($element)
-    {
-        switch ($this->locatorStrategy) {
-            case ILocatorStrategy::class_chain:
-                $el = $this->by('-ios class chain', $element);
-                break;
-            case ILocatorStrategy::predicate_string:
-                $el = $this->by('-ios predicate string', $element);
-                break;
-            case ILocatorStrategy::accessibility_id:
-                $el = $this->by('accessibility id', $element);
-                break;
-        }
-        return $el;
-    }
-
-    /**
-     * @param $action
-     * @param $options
-     */
-    protected function addAction($action, $options)
-    {
-        $gesture = [
-            'action' => $action,
-            'options' => $options
-        ];
-        $this->actions[] = $gesture;
-    }
-
-    /**
-     * @param $element
-     */
-    protected function touchElement($element)
-    {
-        $el = $this->by('-ios class chain', $element);
-        $action = $this->initiateTouchAction();
-        $action->press(['element' => $el])
-            ->release()
-            ->perform();
-    }
+    private LocatorStrategy $locatorStrategy;
 
     public function getSession()
     {
-        return $this->session;
+        return $this->locatorStrategy->getSession();
     }
 
     public function setSession($session)
     {
-        $this->session = $session;
+        $this->locatorStrategy->setSession($session);
     }
 
     public function clickElement($el, $during = 0)
     {
-        $this->action = $this->actionByLocatorStrategy($el);
-        $this->action->initiateTouchAction();
-        $this->action->tap(['element' => $el])->wait($during)->perform();
+        $this->locatorStrategy->clickElement($el, $during = 0);
     }
 
-    public function seeElement($id)
+    public function seeElement($el)
     {
-        $el = $this->by('-ios class chain', $id);
-        $this->assertNotNull($el);
+        $this->locatorStrategy->seeElement($el);
     }
 
     public function scrollEl($originElement, $destinationElement)
     {
-        $El1 = $this->by('-ios class chain', $originElement);
-        $El2 = $this->by('-ios class chain', $destinationElement);
-        $this->scroll($El1, $El2);
+        $this->locatorStrategy->scrollEl($originElement, $destinationElement);
     }
 
     /*public function wait($during = 0)
