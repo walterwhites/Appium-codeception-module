@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b9d0ecd734f25e07f786d34f910414c6",
+    "content-hash": "c63ff937bda841bbd6a18c497b2e1d7c",
     "packages": [
         {
             "name": "appium/php-client",
-            "version": "dev-master",
+            "version": "v0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/appium/php-client.git",
-                "reference": "cb9049b380beb5dec07bedbfbcce8800bc7af1b4"
+                "reference": "3ae7666b198913952a407893a22d962280089dbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/appium/php-client/zipball/cb9049b380beb5dec07bedbfbcce8800bc7af1b4",
-                "reference": "cb9049b380beb5dec07bedbfbcce8800bc7af1b4",
+                "url": "https://api.github.com/repos/appium/php-client/zipball/3ae7666b198913952a407893a22d962280089dbe",
+                "reference": "3ae7666b198913952a407893a22d962280089dbe",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "phpunit",
                 "selenium"
             ],
-            "time": "2018-07-24T13:12:20+00:00"
+            "time": "2017-07-13T17:42:27+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -1649,9 +1649,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "appium/php-client": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
