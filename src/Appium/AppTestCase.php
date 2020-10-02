@@ -3,8 +3,9 @@
 namespace Codeception\Module\Appium;
 
 use Codeception\Module\Appium\Strategies\LocatorStrategy;
+use \PHPUnit_Extensions_AppiumTestCase as TestCase;
 
-class AppTestCase
+class AppTestCase extends TestCase
 {
     private LocatorStrategy $locatorStrategy;
 
