@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "appium/php-client": "v0.2.1"
+        "appium/php-client": "v0.3.0"
     },
     "autoload": {
         "psr-4": {
