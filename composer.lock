@@ -1554,17 +1554,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/walterwhites/php-client.git",
-                "reference": "4f0645a39a529687918787a7c1be82f8717f05ef"
+                "reference": "26e6bea8487be452e556af912ba6b8366249068c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/walterwhites/php-client/zipball/4f0645a39a529687918787a7c1be82f8717f05ef",
-                "reference": "4f0645a39a529687918787a7c1be82f8717f05ef",
+                "url": "https://api.github.com/repos/walterwhites/php-client/zipball/26e6bea8487be452e556af912ba6b8366249068c",
+                "reference": "26e6bea8487be452e556af912ba6b8366249068c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
-                "phpunit/phpunit-selenium": ">=3.0.2"
+                "php": ">=5.3.0",
+                "phpunit/phpunit-selenium": "8.0.0"
             },
             "type": "appium-php",
             "autoload": {
@@ -1592,7 +1592,7 @@
                 "phpunit",
                 "selenium"
             ],
-            "time": "2020-10-02T19:43:08+00:00"
+            "time": "2020-10-02T21:06:10+00:00"
         },
         {
             "name": "webmozart/assert",

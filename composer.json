@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "walterwhites/php-client-codeception": "dev-master"
+        "walterwhites/php-client-codeception": "v1.x-dev"
     },
     "autoload": {
         "psr-4": {
