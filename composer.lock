@@ -4,56 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c63ff937bda841bbd6a18c497b2e1d7c",
+    "content-hash": "b48f86572842256e74c9382a3f1515a9",
     "packages": [
-        {
-            "name": "appium/php-client",
-            "version": "v0.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/appium/php-client.git",
-                "reference": "3ae7666b198913952a407893a22d962280089dbe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/appium/php-client/zipball/3ae7666b198913952a407893a22d962280089dbe",
-                "reference": "3ae7666b198913952a407893a22d962280089dbe",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "phpunit/phpunit-selenium": ">=1.3.3"
-            },
-            "type": "appium-php",
-            "autoload": {
-                "classmap": [
-                    "PHPUnit/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                ""
-            ],
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Isaac Murchie",
-                    "email": "isaac@saucelabs.com",
-                    "homepage": "http://www.saucelabs.com",
-                    "role": "Lead"
-                }
-            ],
-            "description": "PHP client for Selenium 3.0/Appium 1.0",
-            "homepage": "http://github.com/appium/appium-php",
-            "keywords": [
-                "appium",
-                "phpunit",
-                "selenium"
-            ],
-            "time": "2017-07-13T17:42:27+00:00"
-        },
         {
             "name": "doctrine/instantiator",
             "version": "1.3.1",
@@ -1597,6 +1549,52 @@
             "time": "2020-07-12T23:59:07+00:00"
         },
         {
+            "name": "walterwhites/php-client-codeception",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walterwhites/php-client.git",
+                "reference": "4f0645a39a529687918787a7c1be82f8717f05ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walterwhites/php-client/zipball/4f0645a39a529687918787a7c1be82f8717f05ef",
+                "reference": "4f0645a39a529687918787a7c1be82f8717f05ef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3",
+                "phpunit/phpunit-selenium": ">=3.0.2"
+            },
+            "type": "appium-php",
+            "autoload": {
+                "classmap": [
+                    "PHPUnit/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Flo"
+                }
+            ],
+            "description": "PHP client for Selenium 3.0/Appium 1.0",
+            "homepage": "http://github.com/appium/appium-php",
+            "keywords": [
+                "appium",
+                "codeception",
+                "phpunit",
+                "selenium"
+            ],
+            "time": "2020-10-02T19:43:08+00:00"
+        },
+        {
             "name": "webmozart/assert",
             "version": "1.9.1",
             "source": {
@@ -1649,7 +1647,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "walterwhites/php-client-codeception": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

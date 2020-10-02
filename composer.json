@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "appium/php-client": "v0.3.0"
+        "walterwhites/php-client-codeception": "dev-master"
     },
     "autoload": {
         "psr-4": {
